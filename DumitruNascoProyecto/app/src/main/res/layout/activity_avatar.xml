@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!-- TextView en la cabecera -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:text="@string/avatar_header"
+        android:textColor="#6D4C41"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true" />
+
+    <!-- Primer ImageButton centrado horizontalmente y debajo del TextView -->
+    <ImageButton
+        android:id="@+id/imageButtonAvatar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- Segundo ImageButton centrado horizontalmente y debajo del primer ImageButton -->
+    <ImageButton
+        android:id="@+id/imageButtonAvatar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButtonAvatar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <!-- Tercer ImageButton centrado horizontalmente y debajo del segundo ImageButton -->
+    <ImageButton
+        android:id="@+id/imageButtonAvatar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButtonAvatar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Botón "Generar" alineado al fondo -->
+    <Button
+        android:id="@+id/buttonGenerarAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Generar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+</RelativeLayout>

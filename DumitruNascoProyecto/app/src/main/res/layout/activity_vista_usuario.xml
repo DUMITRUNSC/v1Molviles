@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/fotoVistaUsuario"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/defecto"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/usernameVistaUsuario"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/fotoVistaUsuario"
+            android:layout_marginStart="16dp"
+            android:layout_centerVertical="true"
+            android:textSize="30sp"
+            android:text="@string/username"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="44dp"
+            android:layout_height="53dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="17dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:contentDescription="@string/menu_button"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">DumitruNascoProyecto</string>
+    <string name="food">FOOD</string>
+    <string name="inicio_sesion">Inicio sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="derechos_reservados">Derechos reservados</string>
+    <string name="registro">Register</string>
+
+
+    <string name="register">Registro</string>
+    <string name="username">Nombre de Usuario :</string>
+    <string name="email">Correo Electrónico :</string>
+    <string name="birth_date">Fecha de Nacimiento :</string>
+    <string name="password">Contraseña :</string>
+    <string name="repeat_password">Repetir Contraseña :</string>
+    <string name="avatar">Avatar</string>
+    <string name="photo">Foto</string>
+    <string name="accept_terms">Aceptación de Condiciones</string>
+    <string name="save">Guardar</string>
+
+    <string name="menu_button">Botton</string>
+
+    <string name="login">Login</string>
+
+    <string name="al_menos_una_letra_may_scula">Al menos una letra mayúscula</string>
+    <string name="al_menos_un_car_cter_especial"><![CDATA[Al menos un carácter especial (@#$%^&+=)]]></string>
+    <string name="al_menos_un_n_mero">Al menos un número</string>
+    <string name="al_menos_una_letra_min_scula">Al menos una letra minúscula</string>
+    <string name="longitud_8_16_caracteres">Longitud (8-16 caracteres)</string>
+    <string name="criterio">Criterio</string>
+    <string name="usernameAdmi">USERNAME</string>
+
+    <string name="load_more_description">Cargar más avatares</string>
+
+    <string name="avatar_header">AVATAR</string>
+    <string name="reject">Rechazar</string>
+    <string name="reload">Recargar</string>
+    <string name="confirm">Confirmar</string>
+
+    <string name="birthdate">Fecha Nacimiento</string>
+    <string name="repite_la_contrase_a">Repite la Contraseña</string>
+    <string name="nueva_contrase_a">Nueva Contraseña</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar_todos_los_usuarios">Eliminar Usuarios</string>
+    <string name="administrator">ADMINISTRATOR</string>
+    <string name="camabir_contra_a">CAMABIR CONTRAÑA</string>
+
+    <string name="cerra_admin">Cerra Admin</string>
+    <string name="bot_n_oculto">Botón Oculto</string>
+
+</resources>
